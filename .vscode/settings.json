@@ -1,6 +1,6 @@
 {
     "code-runner.executorMap": {
-        "io": "io $fileName"
+        "io": "io $fileName -s"
     },
     "code-runner.fileDirectoryAsCwd": true,
     "code-runner.runInTerminal": true,
