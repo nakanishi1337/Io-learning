@@ -5,7 +5,10 @@
             "label": "Run Io file",
             "type": "shell",
             "command": "io",
-            "args": ["${file}"],
+            "args": [
+                "-s",
+                "${file}"
+            ],
             "group": "build",
             "presentation": {
                 "echo": true,
